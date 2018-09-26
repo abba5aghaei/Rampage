@@ -1,2 +1,2 @@
-# Rampage
-Java-javafx project
+# Java Chatroom
+Simple chatroom, using material design
