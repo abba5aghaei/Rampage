@@ -1,0 +1,81 @@
+.anchor{
+    -fx-background-image: url('dark.png');
+}
+.button{
+    -fx-background-color: #212121ff;
+    -fx-text-fill: white;
+}
+.toggle-button{
+    -fx-background-color: #212121ff;
+    -fx-text-fill: white;
+}
+.button-send{
+    -fx-background-image: url('send.png');
+    -fx-background-color: transparent;
+}
+.text-field{
+    -fx-font-size: 14;
+    -fx-text-fill: #ffff;
+    -fx-text-box-border: #ffff;
+    -fx-background-insets: 5;
+    -fx-background-color: transparent;
+}
+.text-field:focused {
+    -fx-focus-color: #ffff;
+}
+.text-field-small{
+    -fx-font-size: 12;
+    -fx-text-fill: #ffff;
+}
+.text-area{
+    -fx-font-size: 14;
+    -fx-text-fill: #ffff;
+    -fx-background-color: transparent;
+}
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+.anchor-menu{
+	-fx-background-color: black;
+}
+.scroll-pane>.viewport{
+	-fx-background-color: transparent;
+}
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color: #2226;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0.0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color:  #222a;
+    -fx-background-radius: 5.0em;
+}
+.scroll-pane > .corner {
+    -fx-background-color:  #2226;
+}
+.scroll-pane{
+	-fx-background-color: transparent;
+}
+.list-view{
+	-fx-background-color: #1118;
+}
+.list-view .list-cell:even{
+	-fx-background-color: #1118;
+	-fx-text-fill: white;
+}
+.list-view .list-cell:odd{
+	-fx-background-color: #222a;
+	-fx-text-fill: white;
+}
